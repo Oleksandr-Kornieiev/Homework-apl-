@@ -11,7 +11,6 @@ end
 
 # Клас для роботи з PostgreSQL
 class PostgreSQLDatabase
-  include Database
   def connect
     puts 'Підключення до PostgreSQL'
   end
@@ -23,7 +22,6 @@ end
 
 # Клас для роботи з MySQL
 class MySQLDatabase
-  include Database
   def connect
     puts 'Підключення до MySQL'
   end
@@ -35,7 +33,6 @@ end
 
 # Адаптер класів для роботи з різними базами даних
 class DatabaseAdapter
-  include Database
   def initialize(database)
     @database = database
   end
