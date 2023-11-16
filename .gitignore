@@ -56,5 +56,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # .idea folder created by RubyMine
+.idea/
 Homework/**/.idea/
 Test/**/.idea/
